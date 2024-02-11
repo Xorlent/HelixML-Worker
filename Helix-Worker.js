@@ -10,7 +10,6 @@ export default {
       headers: {
         "Authorization": auth,
         "Accept": "application/json",
-        //"Content-Type": "application/text",
       },
       body: JSON.stringify({
         "model": "mistralai/Mistral-7B-Instruct-v0.1",
