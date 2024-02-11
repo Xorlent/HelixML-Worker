@@ -27,5 +27,5 @@ Helix allows you to quickly integrate your own training data into a model.  This
 15. In the Helix tab, select My Account from the user menu at the bottom left of the window.  Copy the Helix API Key.  
 16. Create a Worker environment variable called, "helixauth" and paste the Helix API key into this field, checking "Encrypt" before saving the value.  
 17. Open the Worker code editor again and hit "Send" to ensure you receive a response indicating the model will only use training data for responses.
-   - The response based on the question stored in the Worker variable, "helixPrompt"
+    - The response is based on the question stored in the Worker variable, "helixPrompt"
 18. Explore, extend, invent!  
