@@ -6,7 +6,7 @@ This CloudFlare Worker example allows you to access, via API, a fine-tuned Mistr
 Helix allows you to simply and easily integrate your own training data into a model.  This can be very powerful for creating ML solutions that run on specific, even proprietary data that online models don't (and should not) have access to.  
 ### How do I use this?
 1. Create a free CloudFlare account if you do not already have one [CloudFlare](https://cloudflare.com)  
-2. Create a Helix account at [tryhelix.ai](https://tryhelix.ai)  
+2. Create a free Helix account at [tryhelix.ai](https://tryhelix.ai)  
 3. In the Helix console, ensure "TEXT" is selected and flick the top slider to "Fine tune."
 4. Here you can feed Helix a publicly-accessible web URL or plaintext or a PDF document for training.
    - Please ensure the data you submit is not covered under a confidentiality or non-disclosure agreement!
