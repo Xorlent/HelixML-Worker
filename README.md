@@ -1,5 +1,5 @@
 # HelixML-Worker
-Helix.ml / tryhelix.ai CloudFlare Worker Starter Code  
+Helix.ml / tryhelix.ai CloudFlare Worker starter code  
 ### What is this?
 This CloudFlare Worker example allows you to access, via API, a fine-tuned Mistral7B model that was created using Helix's guided training platform.  Helix makes fine-tuning simple and easy even for folks with no ML background or previous knowledge.  
 ### How is this different than other GPT chat tools?  
