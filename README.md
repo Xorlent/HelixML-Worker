@@ -16,5 +16,10 @@ Helix allows you to simply and easily integrate your own training data into a mo
    - Helpful reading: [Guide to Fine-Tuning Open Source LLM Models on Custom Data](https://stackabuse.com/guide-to-fine-tuning-open-source-llms-on-custom-data/)  
 7. Once fine-tuning is complete, you can ask the model a few questions to see if you get the expected output.
    - It's likely you will need to go through the fine-tuning process a few times to get everything working satisfactorily for your specific use case.
-8. Click on the "i" icon at the top right corner of the Helix chat window to display information about your session.  Copy the sessionid value.
-9. Load the example code into a new CloudFlare Worker.
+8. Click on the "i" icon at the top right corner of the Helix chat window to display information about your session.  Copy the id value at the very top of the page.
+   - Example id: 809b87ba-50f2-c671-da93-809b87ba2315
+10. Create a new CloudFlare Worker  
+11. Edit Settings -> Variables  
+12. Create a variable called, " and paste the Helix API key into this field, checking "Encrypt" before saving the value.  
+13. Edit the Worker code in the web editor and copy the example code into this Worker.  
+14. Save and Deploy.  
