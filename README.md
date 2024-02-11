@@ -14,4 +14,7 @@ Helix allows you to simply and easily integrate your own training data into a mo
    - (Note: I'm not a lawyer, so seek council before deciding to process sensitive data)
 6. At this stage it's helpful to understand a little about training a model so you can dial in your training data by selecting, "Manually review training data before fine-tuning."
    - Helpful reading: [Guide to Fine-Tuning Open Source LLM Models on Custom Data](https://stackabuse.com/guide-to-fine-tuning-open-source-llms-on-custom-data/)  
-8.   
+7. Once fine-tuning is complete, you can ask the model a few questions to see if you get the expected output.
+   - It's likely you will need to go through the fine-tuning process a few times to get everything working satisfactorily for your specific use case.
+8. Click on the "i" icon at the top right corner of the Helix chat window to display information about your session.  Copy the sessionid value.
+9. Load the example code into a new CloudFlare Worker.
