@@ -23,8 +23,8 @@ Helix allows you to quickly integrate your own training data into a model.  This
     - Example id: 809b87ba-50f2-c671-da93-809b87ba2315
 13. Paste the id value into the CloudFlare Worker code in place of the text "YourSessionIDHere"  
 14. Click Save and Deploy and exit the code editor.  
-14. Edit Settings -> Variables  
-15. In the Helix tab, select My Account from the user menu at the bottom left of the window.  Copy the Helix API Key.  
+14. Select Settings -> Variables  
+15. Back on the Helix tab, select My Account from the user menu at the bottom left of the window.  Copy the Helix API Key.  
 16. Create a Worker environment variable called, "helixauth" and paste the Helix API key into this field, checking "Encrypt" before saving the value.  
 17. Open the Worker code editor again and hit "Send" to ensure you receive a response indicating the model will only use training data for responses.
     - The response is based on the question stored in the Worker variable, "helixPrompt"
