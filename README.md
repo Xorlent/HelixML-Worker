@@ -24,7 +24,5 @@ Helix allows you to simply and easily integrate your own training data into a mo
 13. Paste the id value into the CloudFlare Worker code in place of the text "YourSessionIDHere"  
 14. Click Save and Deploy and exit the code editor.  
 14. Edit Settings -> Variables  
-15. In the Helix tab, click on My Account ->  and copy the Helix API Key.
+15. In the Helix tab, select My Account from the user menu at the bottom left of the window.  Copy the Helix API Key.
 16. Create a Worker environment variable called, "helixAuth" and paste the Helix API key into this field, checking "Encrypt" before saving the value.  
-17. Edit the Worker code in the web editor and copy the example code into this Worker.  
-18. Save and Deploy.  
