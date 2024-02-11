@@ -20,7 +20,7 @@ Helix allows you to quickly integrate your own training data into a model.  This
 10. Keeping the Helix tab open, log into CloudFlare and create a new CloudFlare Worker.  
 11. Open the code editor and paste the example code in this repo, replacing everything in the editor window.  
 12. Click back to the Helix tab and copy the id value at the very top of the page:  
-   - Example id: 809b87ba-50f2-c671-da93-809b87ba2315
+    - Example id: 809b87ba-50f2-c671-da93-809b87ba2315
 13. Paste the id value into the CloudFlare Worker code in place of the text "YourSessionIDHere"  
 14. Click Save and Deploy and exit the code editor.  
 14. Edit Settings -> Variables  
