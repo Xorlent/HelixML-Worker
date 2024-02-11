@@ -13,5 +13,5 @@ Helix allows you to simply and easily integrate your own training data into a mo
    - If you have questions or concerns, I recommend reaching out to the Helix.ml team for further guidance.
    - (Note: I'm not a lawyer, so seek council before deciding to process sensitive data)
 6. At this stage it's helpful to understand a little about training a model so you can dial in your training data by selecting, "Manually review training data before fine-tuning."
-   - Helpful reading: 
-8. sdfvsdf  
+   - Helpful reading: [Guide to Fine-Tuning Open Source LLM Models on Custom Data](https://stackabuse.com/guide-to-fine-tuning-open-source-llms-on-custom-data/)  
+8.   
